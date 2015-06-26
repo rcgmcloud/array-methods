@@ -46,3 +46,16 @@ brownOnly.splice(1, "brown", "brown", "brown", "brown");
 var orderedValuesNewLength = orderedValues.unshift(1, 2, 3);
 
 var randomThingsArray = genericNumberArray.concat(colors);
+
+var orderMochi = [{ takeOut: 'Mochi' }];
+var orderMusubi = [{ takeOut: 'Musubi' }];
+
+var updatedOrders = orderQueue.concat(orderMochi, orderMusubi);
+
+var sentence = scrambledWords.join(" ");
+
+var myFruits = fruitCollection.join(" + ");
+
+var favoriteFriends = friends.slice(1, 3);
+
+var owesMoney = friends.slice(3);
